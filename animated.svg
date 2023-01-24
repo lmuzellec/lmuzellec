@@ -29,7 +29,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          height: 100%;
+          width: 600px;
+          height: 300px;
         }
 
         .word {
@@ -54,13 +55,14 @@
         .row {
           position: relative;
           transform-style: preserve-3d;
+          width: calc(5 * var(--main-size));
+          height: var(--main-size);
         }
 
         .item {
           width: var(--main-size);
           height: var(--main-size);
           float: left;
-          background: #f6f6f6;
           transform-origin: 97% 97%;
           position: relative;
           box-shadow: 0.125em 0.125em 0.5em rgba(0, 0, 0, 0.09);
